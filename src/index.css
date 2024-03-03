@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-text {
+  /*
+  @apply bg-gradient-to-r from-pink-500 to-purple-500 text-transparent;
+   */
+  background: linear-gradient(90deg, #c91c6a, rgb(254, 163, 222));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 3px;
+}
